@@ -11,9 +11,9 @@ in the class use the course as a stepping stone to more advanced computer
 science courses. But for most of the students it will be their only computer
 science course.
 
-本书是基于MIT的一门课程， 该课程每年开课两次。该课程针对于那些具备少量或者没有编程经验，但是需要（或至少希望）理解解决问题的计算方法。每年都有一些学生利用该课程作为学习更进一步计算机课程的基础。但是对大多学生而言，该课程将是他们唯一的计算机科学课程。
+本书基于MIT的一门课程，从2006年开始，该课程每年开课两次。该课程针对那些没有编程经验或具备少量编程经验的学生，但他们有需要（或至少是希望）了解使用计算理论解决问题。每年都有一些学生利用该课程作为学习高级计算机课程的基础。但是对大多学生而言，该课程将是他们唯一的计算机科学课程。
 
-Because th e course will be the only computer science course for most of the
+Because the course will be the only computer science course for most of the
 students, we focus on breadth rather than depth. The goal is to provide
 students with a brief introduction to many topics, so that they will have an idea
 of what's possible when the time comes to think about how to use computation
@@ -21,7 +21,7 @@ to accomplish a goal. That said, it is not a "computation appreciation" course.
 It is a challenging and rigorous course in which the students spend a lot of time
 and effort learning to bend the computer to their will.
 
-因为该课程将是大多数学生唯一的计算机科学课程，所以我们注重广度而不是深度。**本书目标是简要介绍许多主题，所以学生将要了解当利用计算完成一个目标时什么是可能的**。那就是说，这不是一个“计算欣赏”课程。它是一个具有挑战性的严格的课程，学生需要花费大量的时间和精力学习如何让计算机服从自己的意愿。
+因为该课程将成为大多数学生唯一的计算机科学课程，所以我们注重广度而不是深度。本书目标是通过简要介绍很多主题，让学生了解如何利用计算达到一个目标时。也就是说，本课程不是一个“计算欣赏”课程，而是一个具有挑战性的严格的课程，学生需要花费大量的时间和精力学习如何让计算机遵从自己的意愿行事。
 
 The book is a bit eccentric. Part 1 (Chapters 1-8) is an unconventional
 introduction to programming in Python. We braid together four strands of
@@ -33,8 +33,8 @@ material:
 • Computational problem solving techniques.
 
 
-本书有点古怪。第一部分（1-8章）以非常规的方式介绍了Python编程。 
-
+本书与其它书不同。第一部分（1-8章）以非常规的方式介绍了Python编程。 
+内容按以下四部分组织：
 * 编程基础
 * Python编程语言
 * 理解计算的核心概念
@@ -50,15 +50,15 @@ aspects of programming methods throughout the book. The idea is to help you
 learn Python and how to be a good programmer in the context of using
 computation to solve interesting problems.
 
-本书覆盖了大多数Python的特性，但是着重于我们能用编程语言实现什么，而不是语言自身。到第三章末为止，本书只是覆盖了少部分的Python内容，但是已经介绍了完全枚举（exhaustive enumeration）的概念，猜测核对（guess and check)算法，二分搜索（bisection search）和高效近似（efficient approximation）算法.
-编程方法的诸貌与Python特性的介绍贯穿全书。帮助你学习Python并且在使用计算解决一些有趣问题上成为一个好的程序员。
+本书覆盖了大多数Python的特性，但是着重于我们能用编程语言实现什么，而不是编程语言本身。例如，到第三章末为止，本书只覆盖了少部分的Python内容，但是已经介绍了完全枚举（exhaustive enumeration）的概念，猜测-检查（guess and check)算法，二分搜索（bisection search）和高效近似（efficient approximation）算法.
+编程方法的诸貌与Python特性的介绍将贯穿全书。本书将帮助你学习Python并且在使用计算解决一些有趣问题上成为一个好的程序员。
 
 Part 2 (Chapters 9-16) is primarily about using computation to solve problems.
 It assumes no knowledge of math ematics beyond high school algebra, but it
 does assume that the reader is comfortable with rigorous thinking and not
-intimidated by mathematical concepts. It covers some of the usual topics found
+intimidated by mathematical concepts. It covers some of the usual topics found。
 
-第二部分（9-16章）是主要关于使用计算解决问题。本书假设您不具备高中代数之上的数学能力， 但是本书假设读者接受严谨的思维和不惧怕数学概念。本书涵盖了一些常见主题。
+第二部分（9-16章）是主要关于使用计算解决问题。本书不假设您具备高中代数之上的数学能力， 但是本书假设读者可以接受严谨的思维和数学概念。本书涵盖了一些常见主题。
 
 # 入门
 
@@ -74,8 +74,8 @@ eight, required to represent one character) weighed one ounce (which it doesn 't
 100 gigabytes would weigh more than 3,000,000 tons. For comparison, that's
 roughly the weight of all the coal produced in a year in the U.S.
   
-计算机做并且只做两件事情： 执行计算并且存储计算结果。计算机擅长于这两件事。典型的计算机是位于桌面或者手提包中，每秒钟执行10亿次左右的计算。我们很难想象它是如此快。想像将球举离地板一米，然后让球掉落，在球落地的这一短短时间里头，你的电脑已经执行了超过一亿次指令。
-至于存储， 一个典型的电脑可以有几百G的存储空间。这是有多大呢？如果一个字节（bits的数量， 一般是8个，表示一个字）重一盎司（which it doesn‘t），100G将重达3，000，000吨。相比之下，这大约是美国一年的煤炭产量。
+计算机做并且只做两件事情： 执行计算并且存储计算结果。计算机擅长于这两件事。典型的计算机是放置于桌面或者手提包中，它每秒钟执行10亿次左右的计算。我们很难想象它是如此快。如果将球举离地板一米，然后让球掉落，在球落地的这一短短时间里头，你的电脑已经执行了超过十亿次指令。
+至于存储，一个典型的电脑可以有拥有几百G的存储空间。这是有多大呢？如果一个字节（一般是8个bits表示一字符）重一盎司（which it doesn‘t），100G将重达3，000，000吨。相比之下，这大约是美国一年的煤炭产量。
 
 For most of human history, computation was limited by the speed of calculation
 of the human brain and the ability to record computational results with the
@@ -87,26 +87,32 @@ computational solution. It is our hope that by the time you finish this book, yo
 will feel comfortable bringing computational thinking to bear on solving many of
 the problems you encounter during your studies, work, and even everyday life.
  
-对于大多数人类历史来说， 计算限制于人类大脑运算的速度和存储运算结果的能力。这意味着只有计算上着手最小的问题。甚至于以现在的计算机速度，依然存在超出现代计算模型的问题（例如，了解气候变化），但是越来越多的问题被证实存在适合的计算方案。我们希望在你完成本书后能收获如何使用计算思维解决一些学习，工作和日常生活中的问题。
+在人类历史的大多数时间里头， 计算限制于人类大脑运算的速度和记忆运算结果的能力。这意味着我们的计算仅限于解决较小的问题。甚至以现在计算机的速度，依然存在超出现代计算模型的问题（例如，了解气候变化），但是越来越多的问题被证实存在适合的计算方案。我们希望在你完成本书后，能收获如何使用计算思维解决一些学习，工作和日常生活中的问题。
 
 What do we mean by computational thinking？
-
-什么是计算思维？
-
 All knowledge can be thought of as either declarative or imperative. Declarative
 knowledge is composed of statements of fact. For example, "the square root of x
 is a number y such that y•y = x." This is a statement of fact. Unfortunately it
 doesn 't tell us how to find a square root.
 
+
 Imperative knowledge is "how to" knowledge, or recipes for deducing
-information. Heron of Alexandria was the first to document a way to compute
-th e square root of a number 2 His meth od can be summarized as:
+information. Heronof Alexandria was the first to document a way to compute
+th e square root of a number 2 His method can be summarized as:
 • Start with a guess, g,
 • If g•g is close enough to x , stop and say that g is the answer
 • Otherwise create a new guess, by averaging g and x/g, i.e. (g + x/g)/2
 • Using this new guess, which we again call g, repeat the process until g•g
 is close enough to x.
 
+什么是计算思维？所有的知识都可以被认为是声明性或命令性。陈述性知识是由事实的陈述构成。例如，”x的平方根是y，满足y*y=x。“。这是一个事实的陈述。不幸的是，这没有告诉我们如何求平方根。
+
+命令性的知识是关于“如何实现”的知识，或者是演绎信息的配方。亚历山大里亚的希罗是第一个提出计算数的平方根方法，他的方法归纳如下：
+* 首先给出一个猜测数g
+* 如果g*g足够接近x，那g就是x的平方根
+* 否则，创建一个新的猜测数，该猜测数是g和x/g的平均数,即，(g+x/g)/2
+* 使用这个新的猜测数g，重复上述过程直到g*g逼近x
+ 
 考虑以下例子：求25的平方根
 
 * 1. g赋一任意值，例如3;
@@ -128,7 +134,7 @@ through a set of well-defined states and eventually produce an output.
 
 
 请注意，方法的描述是由一系列简单的步骤组成，结合具体说明每一步执行的控制流。该描述称为算法。以上算法是一个简单的猜测-检查算法（guess-and-check algorithm）。它是基于容易判断猜测是否是一个好的猜测这一事实。
-正式一点的表述，算法是一个表示为有限长列表的指令，它描述一组运算，在提供一组的输入下执行并通过一组良好定义的状态并最终生成一个输出。
+正式一点的表述，算法是一个表示为有限长列表的指令，它描述一组运算，在提供一组的输入下执行，通过一组良好定义的状态，并最终生成一个输出。
 
 An algorithm is a bit like a recipe from a cookbook,
 1. Put custard mixture over heat.
